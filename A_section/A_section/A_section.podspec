@@ -92,10 +92,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "A_section/AViewController/**/*.{h,m}"
+  spec.source_files  = "A_section/A_section/AViewController/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "A_section/AViewController/**/*.h"
+  spec.public_header_files = "A_section/A_section/AViewController/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
