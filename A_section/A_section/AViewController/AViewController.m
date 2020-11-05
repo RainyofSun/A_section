@@ -7,7 +7,7 @@
 //
 
 #import "AViewController.h"
-#import "BViewController.h"
+#import "CTMediator+B.h"
 
 @interface AViewController ()
 
@@ -23,7 +23,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.navigationController pushViewController:[[BViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello world"] animated:YES];
 }
 
 /*
