@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+use_frameworks!
+
+def all_Pods
+    pod 'LRB_Category'
+end
+
+target 'A_section'do
+   all_Pods
+end
+
