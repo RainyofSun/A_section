@@ -13,6 +13,7 @@
 		1327F75225539E1100111281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1327F75125539E1100111281 /* main.m */; };
 		1327F75B25539E9300111281 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1327F75925539E9300111281 /* AViewController.m */; };
 		1327F75D25539F7C00111281 /* A_section.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1327F75C25539F7C00111281 /* A_section.podspec */; };
+		1327F7BA2553DB1C00111281 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 1327F7B92553DB1C00111281 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1327F75925539E9300111281 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		1327F75A25539E9300111281 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		1327F75C25539F7C00111281 /* A_section.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A_section.podspec; sourceTree = "<group>"; };
+		1327F7B82553DB1C00111281 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		1327F7B92553DB1C00111281 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +76,20 @@
 		1327F75825539E5A00111281 /* AViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1327F7B72553DB0800111281 /* Target */,
 				1327F75A25539E9300111281 /* AViewController.h */,
 				1327F75925539E9300111281 /* AViewController.m */,
 			);
 			path = AViewController;
+			sourceTree = "<group>";
+		};
+		1327F7B72553DB0800111281 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				1327F7B82553DB1C00111281 /* Target_A.h */,
+				1327F7B92553DB1C00111281 /* Target_A.m */,
+			);
+			path = Target;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1327F7BA2553DB1C00111281 /* Target_A.m in Sources */,
 				1327F75B25539E9300111281 /* AViewController.m in Sources */,
 				1327F74125539E0F00111281 /* AppDelegate.m in Sources */,
 				1327F75225539E1100111281 /* main.m in Sources */,
